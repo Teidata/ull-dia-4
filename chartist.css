@@ -8,4 +8,12 @@
   stroke: #0F0;
 }
 
+.chart2 {
+  width: 800px;
+  height: 300px;
+}
+#chart2 .ct-series-c line,   // puntos
+#chart2 .ct-series-c path {  // línea
+  stroke: #0F0;
+}
 
