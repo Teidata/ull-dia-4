@@ -1,3 +1,4 @@
+$(document).ready(function() {
 var data = {
   labels: ['A1', 'A2', 'A3', 'A4', 'A5', 'A6'],
   series: [{ 
@@ -8,3 +9,4 @@ var data = {
 var options = {}
 
 new Chartist.Line('.chart', data, options);
+});
