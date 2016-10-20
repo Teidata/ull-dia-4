@@ -1,6 +1,14 @@
 $(document).ready(function() {
 
-var sample = 'digraph g { A -> B [label="Etiqueta"];
+var sample = 'digraph g { a -> b
+[label="Etiqueta 1"]
+[style=dashed]
+[style=bold]
+
+
+
+ ; }';
+
  }';
 
 var options = {
