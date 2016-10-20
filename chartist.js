@@ -20,6 +20,6 @@ var data2 = {
 
 var options2 = {}
 
-new Chartist.Line('.chart2', data2, options2);
+new Chartist.Bar('.chart2', data2, options2);
   
 });
