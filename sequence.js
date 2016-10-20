@@ -14,12 +14,31 @@ diagram.drawSVG('diagram', {
 });
 //-------------------------------------------------
 //-------------------------------------------------
-var diagram2 = Diagram.parse(sample);
+var diagram1 = Diagram.parse(sample1);
+diagram.drawSVG('diagram1', {
+    theme: 'hand'    // o 'simple'
+});
+//-------------------------------------------------
+var diagram2 = Diagram.parse(sample2);
 diagram.drawSVG('diagram2', {
     theme: 'hand'    // o 'simple'
 });
 //-------------------------------------------------
-    
+var diagram3 = Diagram.parse(sample3);
+diagram.drawSVG('diagram3', {
+    theme: 'hand'    // o 'simple'
+});
+//-------------------------------------------------
+var diagram4 = Diagram.parse(sample4);
+diagram.drawSVG('diagram4', {
+    theme: 'hand'    // o 'simple'
+});
+//-------------------------------------------------
+var diagram5 = Diagram.parse(sample5);
+diagram.drawSVG('diagram5', {
+    theme: 'hand'    // o 'simple'
+});
+//-------------------------------------------------
     
     
     
