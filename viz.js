@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
-var sample = 'digraph g { a -> b; }';
+var sample = 'digraph g { A -> B [label="Etiqueta"; ]
+ }';
 
 var options = {
   format: 'svg'
