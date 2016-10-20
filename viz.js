@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-var sample = 'digraph g { A -> B [label="Etiqueta"; ]
+var sample = 'digraph g { A -> B [label="Etiqueta"];
  }';
 
 var options = {
