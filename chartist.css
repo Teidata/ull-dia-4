@@ -3,8 +3,8 @@
   width: 600px;
   height: 400px;
 }
-#chart .ct-series-c line,   // puntos
-#chart .ct-series-c path {  // línea
+.chart .ct-series-c line,   // puntos
+.chart .ct-series-c path {  // línea
   stroke: #0F0;
 }
 
@@ -12,8 +12,8 @@
   width: 800px;
   height: 300px;
 }
-#chart2 .ct-series-c line,   // puntos
-#chart2 .ct-series-c path {  // línea
+.chart2 .ct-series-c line,   // puntos
+.chart2 .ct-series-c path {  // línea
   stroke: #0F0;
 }
 
