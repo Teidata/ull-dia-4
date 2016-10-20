@@ -15,7 +15,7 @@ diagram.drawSVG('diagram', {
 //-------------------------------------------------
 //-------------------------------------------------
 var diagram1 = Diagram.parse(sample1);
-diagram.drawSVG('diagram1', {
+diagram1.drawSVG('diagram1', {
     theme: 'hand'    // o 'simple'
 });
 //-------------------------------------------------
