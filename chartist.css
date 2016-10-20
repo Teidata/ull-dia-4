@@ -17,3 +17,12 @@
   stroke: #0F0;
 }
 
+.chart3 {
+  width: 300px;
+  height: 300px;
+}
+.chart3 .ct-series-c line,   // puntos
+.chart3 .ct-series-c path {  // línea
+  stroke: #0F0;
+}
+
