@@ -28,7 +28,7 @@ var data3 = {
 
 var options3 = {
   donut: true,
-  donutWidth: 40,
+  donutWidth: 80,
   startAngle: 270,
   total: 200
 }
