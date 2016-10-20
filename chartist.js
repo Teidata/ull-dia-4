@@ -28,9 +28,9 @@ var data3 = {
 
 var options3 = {
   donut: true,
-  // donutWidth: 40,
-  // startAngle: 270,
-  // total: 200
+  donutWidth: 40,
+  startAngle: 270,
+  total: 200
 }
 
 new Chartist.Pie('.chart3', data3, options3);
