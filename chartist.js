@@ -9,7 +9,7 @@ var data = {
 var options = {}
 
 new Chartist.Line('.chart', data, options);
-
+//----------------------------------------------------------
 var data2 = {
   labels: ['A1', 'A2', 'A3', 'A4', 'A5', 'A6'],
   series: [{ data: [2, 4, 6, 8, 10, 12] }, // ct-series-a
@@ -21,20 +21,20 @@ var data2 = {
 var options2 = {}
 
 new Chartist.Bar('.chart2', data2, options2);
-  
+//----------------------------------------------------------
 var data3 = {
   series: [20, 10, 30, 40]
 }
 
 var options3 = {
-  // donut: true,
+  donut: true,
   // donutWidth: 40,
   // startAngle: 270,
   // total: 200
 }
 
 new Chartist.Pie('.chart3', data3, options3);
-  
+//----------------------------------------------------------
 
 
 });
