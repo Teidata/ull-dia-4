@@ -1,0 +1,6 @@
+/* Damos tamaño (y posición) a la tarjeta */
+#card {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+}
