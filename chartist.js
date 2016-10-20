@@ -22,8 +22,6 @@ var options2 = {}
 
 new Chartist.Bar('.chart2', data2, options2);
   
-});
-
 var data3 = {
   series: [20, 10, 30, 40]
 }
@@ -36,3 +34,7 @@ var options3 = {
 }
 
 new Chartist.Pie('.chart3', data3, options3);
+  
+
+
+});
